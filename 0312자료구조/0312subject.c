@@ -1,30 +1,28 @@
 #include <stdio.h>
 
-int main() {
-	
-	int i, n;
-	int sum = 0;
-
-	for (n = 1; n <= 100; n++) {
-		if (prime(n)) {
-			sum += n;
-		}
-	}
-	pintf("1 ~ 100 까지 소수의 합 : %d", sum);
-
+int is_prime(int n) {
+    if (n <= 1) {
+        return 0; 
+    }
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
+            return 0; 
+        }
+    }
+    return 1; 
 }
-int prime(int n) {
-	int r, i;
-	int count = 0;
-	for (i = 2; i <= n; i++) {
-		r = n / i;
-		if (n == r * i) count++;
 
-		if (count > 1) return 0;
-	}
+int main() {
+    int limit = 100;
+    int sum = 0;
 
-	if (count == 1) return 1;
-	else
-		return 0;
+    for (int i = 2; i <= limit; i++) {
+        if (is_prime(i)) {
+            sum += i;
+        }
+    }
 
+    printf("100 이하 소수 합: %d\n", sum);
+
+    return 0;
 }
