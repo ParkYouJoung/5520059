@@ -18,5 +18,8 @@
     <ClCompile Include="shcool.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0312subject.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
