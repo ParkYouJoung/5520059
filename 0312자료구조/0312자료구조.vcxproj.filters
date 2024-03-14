@@ -18,7 +18,7 @@
     <ClCompile Include="shcool.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03120_5520059_prime.c">
+    <ClCompile Include="0312_prime.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0314_5520059_1.c">

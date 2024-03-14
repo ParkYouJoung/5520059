@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="03120_5520059_prime.c" />
+    <ClCompile Include="0312_prime.c" />
     <ClCompile Include="0314_5520059_1.c" />
     <ClCompile Include="shcool.c" />
   </ItemGroup>

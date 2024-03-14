@@ -17,5 +17,8 @@ int main() {
     }
 
     printf("100 이하 소수 합은 %d 입니다.\n", sum);
+
     return 0;
+
+    
 }
