@@ -1,14 +1,17 @@
 #include <stdio.h>
+#include<stdlib.h>
 #include <time.h>
 
 int main(void) 
 {
-	clock_t start, stop;
+    int sum = 0;
+    int i, j;
+
+    clock_t start, stop;
 	double duration;
 	start = clock();    // 측정 시작 
 
-    int sum = 0;
-    int i, j;
+    
 
     for (i = 2; i <= 100; i++) {                     // 100이하 소수들의 합 구하는 코드
         int primenumber = 1;
