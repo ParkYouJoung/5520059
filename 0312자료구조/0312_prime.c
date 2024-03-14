@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main_a() {
     int sum = 0;
     int i, j;
 
@@ -19,6 +19,5 @@ int main() {
     printf("100 이하 소수 합은 %d 입니다.\n", sum);
 
     return 0;
-
     
 }
