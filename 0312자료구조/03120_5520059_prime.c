@@ -9,13 +9,13 @@ int main() {
 
         for (j = 2; j * j <= i; j++) {
             int remainder = i % j;
-            int is_divisible = remainder == 0;
-            primenumber = primenumber && (!is_divisible);
+            int div = remainder == 0;
+            primenumber = primenumber && (!div);
         }
 
         sum += (primenumber * i);
     }
 
-    printf("100 이하 소수들의 합: %d\n", sum);
+    printf("100 이하 소수 합은 %d 입니다.\n", sum);
     return 0;
 }
