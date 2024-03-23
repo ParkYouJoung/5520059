@@ -24,5 +24,11 @@
     <ClCompile Include="0314_5520059_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0319_5520059_fact.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0319_5520059_pwoer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
